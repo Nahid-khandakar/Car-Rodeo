@@ -29,3 +29,4 @@ const jeepBtn = () => {
 
     document.getElementById('jeepSection').style.display = 'block';
 }
+
