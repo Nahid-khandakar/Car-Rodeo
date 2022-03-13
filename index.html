@@ -125,34 +125,25 @@
 
         <section class="my-5 bg-dark mx-3 rounded border border-light">
             <br>
-            <div class="p-3">
+            <div class="p-3 d-flex justify-content-around">
 
-                <ul class="nav justify-content-evenly ">
+                <button onclick="modifyBtn()" type="button" class="btn btn-lg btn-outline-danger">
+                    <ion-icon name="build"></ion-icon> Modify
+                </button>
 
-                    <li class="nav-item">
-                        <button onclick="modifyBtn()" type="button" class="btn btn-lg btn-outline-danger">
-                            <ion-icon name="build"></ion-icon> Modify
-                        </button>
-                    </li>
+                <button onclick="sportBtn()" type="button" class="btn btn-lg btn-outline-danger ">
+                    <ion-icon name="speedometer"></ion-icon>
+                    Sports
+                </button>
 
-                    <li class="nav-item">
-                        <button onclick="sportBtn()" type="button" class="btn btn-lg btn-outline-danger">
-                            <ion-icon name="speedometer"></ion-icon>
-                            Sports
-                        </button>
-                    </li>
-
-                    <li class="nav-item">
-                        <button onclick="jeepBtn()" type="button" class="btn btn-lg btn-outline-danger">
-                            <ion-icon name="flame"></ion-icon> Jeep
-                        </button>
-                    </li>
-
-                </ul>
+                <button onclick="jeepBtn()" type="button" class="btn btn-lg btn-outline-danger ">
+                    <ion-icon name="flame"></ion-icon> Jeep
+                </button>
 
             </div>
             <hr class="bg-danger m-3">
 
+            <!-- car type name in card top -->
             <h2 class="text-light text-center">
                 <ion-icon name="location-outline"></ion-icon>
                 <span id="carList">Rendoem Cars List</span>
@@ -553,26 +544,25 @@
 
     <footer class="bg-dark p-3 mx-3 rounded border border-light">
         <div class="mt-2">
-            <h2 class=" text-center">
+            <h2 class=" text-center ms-2">
 
                 <span class="vr bg-light"></span>
-                <a href="https://www.facebook.com/flubuzz/" target="blank" class="text-danger ms-5 me-5"
+                <a href="https://www.facebook.com/flubuzz/" target="blank" class="text-danger me-5"
                     style="text-decoration: none">
                     <ion-icon name="logo-facebook"></ion-icon>
                 </a>
 
                 <span class="vr bg-light"></span>
-                <a href="https://www.instagram.com/___N_A_H_I_D___/" target="blank" class="text-danger ms-5 me-5"
+                <a href="https://www.instagram.com/___N_A_H_I_D___/" target="blank" class="text-danger me-5"
                     style="text-decoration: none">
                     <ion-icon name="logo-instagram"></ion-icon>
                 </a>
 
                 <span class="vr bg-light"></span>
-                <a href="https://www.youtube.com/watch?v=s-bZD3O3P80" target="blank" class="text-danger ms-5 me-5"
+                <a href="https://www.youtube.com/watch?v=s-bZD3O3P80" target="blank" class="text-danger me-5"
                     style="text-decoration: none">
                     <ion-icon name="logo-youtube"></ion-icon>
                 </a>
-                <span class="vr bg-light"></span>
             </h2>
 
             <hr class="bg-danger">
