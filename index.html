@@ -129,20 +129,20 @@
                 <ul class="nav justify-content-evenly ">
 
                     <li class="nav-item">
-                        <button type="button" class="btn btn-lg btn-outline-danger">
+                        <button onclick="modifyBtn()" type="button" class="btn btn-lg btn-outline-danger">
                             <ion-icon name="build"></ion-icon> Modify
                         </button>
                     </li>
 
                     <li class="nav-item">
-                        <button type="button" class="btn btn-lg btn-outline-danger">
+                        <button onclick="sportBtn()" type="button" class="btn btn-lg btn-outline-danger">
                             <ion-icon name="speedometer"></ion-icon>
                             Sports
                         </button>
                     </li>
 
                     <li class="nav-item">
-                        <button type="button" class="btn btn-lg btn-outline-danger">
+                        <button onclick="jeepBtn()" type="button" class="btn btn-lg btn-outline-danger">
                             <ion-icon name="flame"></ion-icon> Jeep
                         </button>
                     </li>
@@ -152,6 +152,10 @@
             </div>
             <hr class="bg-danger">
 
+            <h2 class="text-light text-center">
+                <ion-icon name="location-outline"></ion-icon>
+                <span id="carList">Rendoem Cars List</span>
+            </h2>
             <!-- Rendom div secton -->
             <div id="rendoemSection" class="container">
                 <div class="row gx-4">
@@ -524,6 +528,9 @@
     <!-- for icon -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- custom js -->
+    <script src="./app.js"></script>
 </body>
 
 </html>
